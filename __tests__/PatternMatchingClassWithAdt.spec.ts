@@ -1,5 +1,6 @@
 import { matchI } from "ts-adt";
-import {SchrodingerCat} from "../src/PatternMatchingClassWithAdt";
+import {matcher, SchrodingerCat} from "../src/PatternMatchingClassWithAdt";
+import {SchrodingerCatValues} from "../src/SchrodingerCatValues";
 
 describe('pattern matching with library ts-adt', ()=>{
     describe('The SchrodingerCat', function () {
@@ -7,23 +8,13 @@ describe('pattern matching with library ts-adt', ()=>{
         it('should be dead', function () {
             const deadCat: SchrodingerCat = {_type: "Dead"};
 
-            const value = matchI(deadCat)({
-                Dead: () => "Is DEAD!1!",
-                Alive: () => "Oops is along alive...",
-            });
-
-            expect(value).toEqual("Is DEAD!1!")
+            expect(matcher(deadCat)).toEqual(SchrodingerCatValues.DEAD)
         });
 
         it('should be alive', function () {
-            const deadCat: SchrodingerCat = {_type: "Alive"};
+            const aliveCat: SchrodingerCat = {_type: "Alive"};
 
-            const value = matchI(deadCat)({
-                Dead: () => "Is DEAD!1!",
-                Alive: () => "Oops is along alive...",
-            });
-
-            expect(value).toEqual("Oops is along alive...")
+            expect(matcher(aliveCat)).toEqual(SchrodingerCatValues.ALIVE)
         });
     });
 })
