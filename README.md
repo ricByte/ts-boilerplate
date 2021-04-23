@@ -15,13 +15,13 @@ story
 ├── README.md
 ├── __tests__
 │   ├── index.spec.ts
-│   └── pattern-matching-ts-adt.spec.ts
+│   └── PatternMatchingClassWithAdt.spec.ts
 ├── huskyrc.json
 ├── jest.config.js
 ├── package-lock.json
 ├── package.json
 ├── src
-│   ├── PatternMatchingClass.ts
+│   ├── PatternMatchingClassWithAdt.ts
 │   └── index.ts
 ├── tsconfig.json
 ├── tsconfig.lint.json
