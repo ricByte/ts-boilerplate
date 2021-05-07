@@ -33,7 +33,7 @@
     "sort-package-json": "1.x.x",
     "ts-adt": "2.x.x",
     "ts-jest": "26.x.x",
-    "tslint": "5.x.x",
+    "tslint": "6.x.x",
     "tslint-config-prettier": "1.x.x",
     "tslint-plugin-prettier": "2.x.x",
     "typescript": "4.x.x"
