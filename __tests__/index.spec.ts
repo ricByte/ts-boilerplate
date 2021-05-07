@@ -1,6 +1,6 @@
-import ind from '../src'
-describe('', ()=>{
-   it('Test 1',()=>{
-       expect(ind()).toBeFalsy();
-   })
+import truthy from "../src";
+describe("Index", () => {
+  it("Test 1", () => {
+    expect(truthy()).toBeTruthy();
+  });
 });

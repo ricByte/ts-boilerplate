@@ -1,1 +1,3 @@
- export default ()=>false
+export default () => {
+  return true;
+};
