@@ -1,3 +1,3 @@
-export default () =>{
-    return false;
-}
+export default () => {
+  return false;
+};

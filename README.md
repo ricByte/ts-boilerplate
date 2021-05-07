@@ -3,12 +3,13 @@
 A series of pattern matching examples in Typescript
 
 ### Background
-TL;DR
 
+TL;DR
 
 story
 
 ### Project Structure
+
 ```shell
 
 ├── LICENSE.md
@@ -32,13 +33,14 @@ story
 
 ### Dependencies
 
-
 ### List of examples
+
 1. Vanilla
-2. Verbose 
+2. Verbose
 3. `ts-adt`
 
 ### Contributors
+
 Io
 
 ### Licence

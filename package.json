@@ -1,10 +1,9 @@
 {
   "name": "pattern-matching-examples",
-  "engines": {
-    "node": ">=14"
-  },
   "version": "0.0.1",
   "description": "A set of exmples with typescript",
+  "license": "MIT",
+  "author": "Riccardo Vecchi",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "bin": {
@@ -39,6 +38,7 @@
     "tslint-plugin-prettier": "2.x.x",
     "typescript": "4.x.x"
   },
-  "author": "Riccardo Vecchi",
-  "license": "MIT"
+  "engines": {
+    "node": ">=14"
+  }
 }
