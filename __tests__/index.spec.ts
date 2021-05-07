@@ -1,6 +1,6 @@
 import ind from '../src'
-describe('', ()=>{
+describe('Index', ()=>{
    it('Test 1',()=>{
-       expect(ind()).toBeFalsy();
+       expect(true).toBeFalsy();
    })
 });
