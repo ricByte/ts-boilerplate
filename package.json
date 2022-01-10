@@ -27,7 +27,7 @@
     "concurrently": "6.x.x",
     "husky": "6.x.x",
     "jest": "26.x.x",
-    "lint-staged": "10.x.x",
+    "lint-staged": "12.x.x",
     "prettier": "2.x.x",
     "rimraf": "3.0.x",
     "sort-package-json": "1.x.x",
