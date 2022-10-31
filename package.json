@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@types/jest": "26.x.x",
-    "@types/node": "15.x.x",
+    "@types/node": "18.x.x",
     "concurrently": "6.x.x",
     "husky": "6.x.x",
     "jest": "26.x.x",
